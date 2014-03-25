@@ -103,7 +103,7 @@ Lungo.RouterPhone = do (lng = Lungo) ->
   @method clearHistory
   ###
   clearHistory = -> 
-    _history = _history[_history.length - 1]
+    _history = [_history[_history.length - 1]]
 
   ###
   Private methods
@@ -160,5 +160,7 @@ Lungo.RouterPhone = do (lng = Lungo) ->
   back    : back
   article : article
   history : history
+  _history : _history
+  clearHistory : clearHistory
   step    : step
   animationEnd : animationEnd
