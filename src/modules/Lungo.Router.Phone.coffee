@@ -97,6 +97,13 @@ Lungo.RouterPhone = do (lng = Lungo) ->
   @return {string} Current section id
   ###
   history = -> _history[_history.length - 1]
+  
+  ###
+  Clears the history stack.
+  @method clearHistory
+  ###
+  clearHistory = -> 
+    _history = _history[_history.length - 1]
 
   ###
   Private methods
