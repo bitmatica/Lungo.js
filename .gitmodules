@@ -18,7 +18,7 @@
 	url = https://github.com/tapquo/lungo.thirdparties.git
 [submodule "package/lungo.gmap"]
 	path = package/lungo.gmap
-	url = https://github.com/tapquo/lungo.gmap.git
+	url = https://github.com/bitmatica/lungo.gmap.git
 [submodule "package/lungo.qr"]
 	path = package/lungo.qr
 	url = https://github.com/tapquo/lungo.qr.git
