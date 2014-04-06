@@ -21,7 +21,7 @@
 	url = https://github.com/bitmatica/lungo.gmap.git
 [submodule "package/lungo.qr"]
 	path = package/lungo.qr
-	url = https://github.com/tapquo/lungo.qr.git
+	url = https://github.com/bitmatica/lungo.qr.git
 [submodule "package/lungo.calendar"]
 	path = package/lungo.calendar
 	url = https://github.com/tapquo/lungo.calendar.git
