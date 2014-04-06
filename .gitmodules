@@ -27,4 +27,4 @@
 	url = https://github.com/tapquo/lungo.calendar.git
 [submodule "package/lungo.firefoxos"]
 	path = package/lungo.firefoxos
-	url = https://github.com/tapquo/lungo.firefoxos.git
+	url = https://github.com/lulu523/lungo.firefoxos.git
