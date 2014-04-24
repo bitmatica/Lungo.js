@@ -127,6 +127,16 @@ Lungo.RouterTablet = do (lng = Lungo) ->
   @return {string} Current section id
   ###
   history = -> _history[_history.length - 1]
+  
+  ###
+  Clears the history stack.
+  @method clearHistory
+  ###
+  clearHistory = -> 
+    _history = [_history[_history.length - 1]]
+    
+  getHistory = ->
+    _history
 
   ###
   Private methods
@@ -269,6 +279,9 @@ Lungo.RouterTablet = do (lng = Lungo) ->
   back    : back
   article : article
   history : history
+  getHistory : getHistory
+  _history : _history
+  clearHistory : clearHistory
   step    : step
   animationEnd : animationEnd
   historys : -> _history
