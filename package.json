@@ -6,6 +6,14 @@
   "author": {
     "name": "Tapquo S.L.",
     "site": "http://tapquo.com"},
+  "dependencies": {
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-watch": "*"
+  },
   "devDependencies": {
     "grunt-contrib-coffee": "*",
     "grunt-contrib-concat": "*",
